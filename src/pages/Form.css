@@ -1,0 +1,206 @@
+
+  .form-content-right {
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    background: #ecd6f3;
+    height:45vh;
+    width: 45vh;
+    /*margin-left:10vh;*/
+    /* linear-gradient(90deg, rgb(177, 176, 241) 0%, rgb(177, 176, 241) 100%);*/
+  }
+  .form-content-left {
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    background: #ecd6f3;
+    height:45vh;
+    width: 45vh;
+    /*margin-left:10vh;*/
+    /* linear-gradient(90deg, rgb(177, 176, 241) 0%, rgb(177, 176, 241) 100%);*/
+  }
+  /*.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }*/
+  
+  .form h1 {
+    font-size: 1.6rem;
+    text-align:center;
+    width: 100%;
+    margin-top:0.5rem;
+    margin-bottom: 0.5rem;
+    color: rgb(2, 2, 2);
+    font-weight: 600;
+  }
+  
+  .form-inputs {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 1.4rem;
+    width: 80%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+ /* 
+  .form-inputs p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    padding-left:0.4rem ;
+    color: #f00e0e;
+  }
+  /*
+  .form-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: #fff;
+  }
+  */
+  .form-input {
+    display: block;
+    align-items: center;
+    outline:black;
+    border-radius: 8px;
+    height: 40px;
+    width: 80%;
+    border: none;
+  }
+  .alignmentsign{
+    display:flex;
+    margin-left: 0%;
+    align-Items:center;
+    height:60vh;
+   flex-direction: row;
+   justify-content: space-evenly;
+  }
+   /*border:1px black solid;
+  }*/
+  .alignmentslider{
+    display:flex;
+    justify-Content:center;
+    align-Items:center;
+    height:350px;
+    width:700px;
+   /* border:10px black solid;*/
+  }
+  
+  
+  .form-input::placeholder {
+    color: #595959;
+    font-size: 14px;
+    
+  }
+  
+  
+  .makemiddle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+  }
+  .button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+    /*margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 1.4rem;
+    width: 80%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: purple;
+    outline: none;
+    border:black;
+    color: rgb(158, 9, 245);
+    font-size: 1rem;
+  }
+  
+  .form-input-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(96, 2, 247) 0%,
+      rgb(30, 7, 230) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+*/
+  .form-input-login {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: rgb(22, 22, 22);
+    width: 80%;
+    text-align: center;
+
+  }
+  .form-input-log {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: rgb(22, 22, 22);
+    width: 100%;
+    text-align: center;
+  margin-bottom:1rem ;
+  }
+  .form-input-log a {
+    text-decoration: none;
+    color: #d401d4;
+    font-weight: 600;
+  }
+  
+  .form-input-login a {
+    text-decoration: none;
+    color: #d401d4;
+    font-weight: 600;
+  }
+.Carousel{
+    max-width:350px;
+    max-height:700px;
+    margin: auto;
+  }
+/*
+  @media screen and (max-width: 860px){
+    .alignmentsign{
+      display:flex;
+      margin-left: 0%;
+      align-Items:center;
+      height:100vh;
+     flex-direction: column;
+     justify-content: space-evenly;
+    }
+    .form-content-right {
+      border-radius: 10px 10px 10px 10px;
+      position: relative;
+      background: #ecd6f3;
+      height:35vh;
+      width: 45vh;
+      /*margin-left:10vh;*/
+      /* linear-gradient(90deg, rgb(177, 176, 241) 0%, rgb(177, 176, 241) 100%);*/
+    /*}
+    .Carousel{
+      max-width:auto;
+      max-height:auto;
+      margin: auto;
+    }
+  }*/
